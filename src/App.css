@@ -1,0 +1,34 @@
+html, .App {
+  text-align: left;
+  transition: background-color 0.5s, color 0.5s;
+     height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bars{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.time{
+  margin: 10px;
+}
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-mode {
+  background-color: #141414;
+  color: #fff;
+ 
+}
+#root {
+  height: 100%;
+}
+p{
+  display: inline;
+  font-size: 30px;
+}
